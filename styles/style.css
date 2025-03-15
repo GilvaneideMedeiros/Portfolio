@@ -2,10 +2,10 @@
 
 
 :root{
-    --cor-primaria: #003092;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #FFAB5B; 
-    --cor-hover: #272727;
+    --cor-primaria: #034C53;
+    --cor-secundaria: #FFC1B4;
+    --cor-terciaria: #F38C79; 
+    --cor-hover: #007074;
     --cor-fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
@@ -51,18 +51,22 @@ body{
     padding: 5% 15%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: calc(50% - 307.5px);
+    gap: 40px;
+    text-indent: 0%;
 }
 .apresentacao__conteudo{
-    width: 615px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+  
 }
 
 .apresentacao__conteudo__titulo{
     font-size: 36px;
     font-family: var(--cor-fonte-primaria);
+    justify-content: center;    
 }
 
 .apresentacao__conteudo__texto{
