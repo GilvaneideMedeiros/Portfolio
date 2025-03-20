@@ -122,8 +122,10 @@ body{
     color: var(--cor-hover);
 }
 
-.apresentacao__imagem{
-    width: auto;
+.apresentacao__imagem {
+    width: 100%;
+    max-width: 400px; /* Ajuste para o tamanho máximo desejado */
+    height: auto;
 }
 
 .rodape{
@@ -151,7 +153,11 @@ body{
         padding: 5%;
     }
 
-    .apresentacao__conteudo{
+    .apresentacao__conteudo__titul{
+    font-size: 1.8rem; /* Em vez de valores fixos */
+    }
+    
+.apresentacao__conteudo{
         width: auto;        
     }
 
