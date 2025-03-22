@@ -70,13 +70,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
     gap: 82px;  
 }
 
 .apresentacao__conteudo__titulo{
     font-size: 2.25rem;
     font-family: var(--cor-fonte-primaria);
-    justify-content: center;    
+    justify-content: center;   
+    text-align: center; 
 }
 
 .apresentacao__conteudo__texto{
@@ -96,8 +98,8 @@ body{
     font-family: var(--cor-fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
-    justify-content: center;
     margin: 20px;
+    text-align: center;
 }
 .apresentacao__links__navegacao{
     /* background-color: #22D4FD; */
@@ -106,7 +108,7 @@ body{
     gap: 5px;
     border: 2px solid var(--cor-terciaria);
     width: 50%;
-    text-align: center;
+    align-items: center;
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
@@ -114,7 +116,7 @@ body{
     margin-bottom: 20px;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria);  
 }
 
 .apresentacao__links__navegacao:hover{
