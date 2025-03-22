@@ -29,7 +29,8 @@ body{
 }
 
 .cabecalho {
-    padding: 6% 0% 0% 10%;
+    padding: 5%;
+    text-align: center;
 }
 
 .cabecalho__menu__link{
@@ -61,11 +62,12 @@ body{
 }
 
 .apresentacao{
-    padding: 5% 15%;
+    padding: 5%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 2rem;
 }
 .apresentacao__conteudo{
     width: 50%;
@@ -107,7 +109,7 @@ body{
     /* background-color: #22D4FD; */
     display: inline-flex;
     justify-content: center;
-    gap: 5px;
+    gap: 1rem;
     border: 2px solid var(--cor-terciaria);
     width: 50%;
     align-items: center;
@@ -127,7 +129,8 @@ body{
 }
 
 .apresentacao__imagem {
-    width: 100%;
+    flex: 1 1 200px;
+    /*width: 100%;*/
     max-width: 400px; /* Ajuste para o tamanho máximo desejado */
     height: auto;
 }
