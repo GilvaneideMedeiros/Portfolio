@@ -132,6 +132,7 @@ body{
     width: 100%;
     max-width: 400px; /* Ajuste para o tamanho máximo desejado */
     height: auto;
+    align-items: center;
 }
 
 .rodape{
