@@ -1,4 +1,4 @@
-<h1 align="center">**Projeto Portifólio**</h1>
+<h1 align="center">**Projeto Portfólio**</h1>
 Olá! Bem vindo ao meu projeto de Portifólio!
 
 ## Ferramentas utilizadas:
