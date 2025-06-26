@@ -26,7 +26,7 @@ Espero que gostem!
 Se houver alguma dúvida pode enviar uma mensagem para o endereço de e-mail: gilvaneide.m.bertaccini@gmail.com.
 ### Linkedin: https://www.linkedin.com/in/gilvaneide-bertaccini/
 
-Data da última versão do projeto: março/2025.
+Data da última versão do projeto: abril/2025.
 
 ## Feito por:
 
